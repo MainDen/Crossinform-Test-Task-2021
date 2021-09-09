@@ -19,7 +19,7 @@ namespace MainDen.Crossinform.TestTask2021
                 try
                 {
                     var stopwatch = Stopwatch.StartNew();
-                    var occurrences = WordCollection.FromFile(path).GetOccurrencesOfTokens(3);
+                    var occurrences = TextData.FromFile(path).GetOccurrencesOfTokens(3);
                     var result = occurrences.OrderByDescending(pair => pair.Value).Take(10).Select(pair => pair.Key);
                     stopwatch.Stop();
 
