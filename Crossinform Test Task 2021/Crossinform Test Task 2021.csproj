@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>MainDen.Crossinform.TestTask2021</RootNamespace>
+    <AssemblyName>freqan</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Localization.ru.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>
